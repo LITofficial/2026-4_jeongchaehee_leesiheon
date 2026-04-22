@@ -1,6 +1,6 @@
 # 세션 정보
 
-## 세션 제목: 인스타, 노션도 AI가 읽고 쓸 수 있을까? MCP 내부 알아보기**
+## 세션 제목: 인스타, 노션도 AI가 읽고 쓸 수 있을까? MCP 내부 알아보기
 
 ## 세션 자료
 - [Microsoft Learn 실습 원본: Azure App Service로 배포하는 FastAPI + PostgreSQL 레스토랑 리뷰 앱](https://learn.microsoft.com/azure/app-service/tutorial-ai-model-context-protocol-server-python?wt.mc_id=studentamb_482865)
