@@ -1,3 +1,13 @@
+# 세션 정보
+
+## 세션 제목: 인스타, 노션도 AI가 읽고 쓸 수 있을까? MCP 내부 알아보기**
+
+## 세션 자료
+- [Microsoft Learn 실습 원본: Azure App Service로 배포하는 FastAPI + PostgreSQL 레스토랑 리뷰 앱](https://learn.microsoft.com/azure/app-service/tutorial-ai-model-context-protocol-server-python?wt.mc_id=studentamb_482865)
+- [컨텐츠 설계도](https://www.notion.so/LIT-4-333ab05f4ff28097a42cddc1fd8413ad?source=copy_link)
+- [PPT 원본](https://docs.google.com/presentation/d/1hMlO15SjUK3c5397QtLXlnDeGIds2IJY/edit?usp=sharing&ouid=112468629457417043834&rtpof=true&sd=true)
+
+## Azure App Service로 배포하는 FastAPI + PostgreSQL 레스토랑 리뷰 앱
 ---
 page_type: sample
 languages:
@@ -18,13 +28,11 @@ description: This project deploys a restaurant review web application using Fast
 ---
 <!-- YAML front-matter schema: https://review.learn.microsoft.com/en-us/help/contribute/samples/process/onboarding?branch=main#supported-metadata-fields-for-readmemd -->
 
-# Azure App Service로 배포하는 FastAPI + PostgreSQL 레스토랑 리뷰 앱
-
 이 저장소는 FastAPI와 PostgreSQL로 만든 레스토랑 리뷰 웹 애플리케이션입니다.
 
 Azure App Service에 배포할 수 있도록 구성되어 있고, MCP(Model Context Protocol) 도구를 통해 GitHub Copilot Chat 같은 AI 클라이언트가 실제 앱 데이터를 읽고 답할 수 있습니다.
 
-## 이 저장소에서 할 수 있는 것
+## 이 Repository에서 할 수 있는 것
 
 - 리뷰 작성과 조회가 가능한 레스토랑 웹앱 실행
 - Azure Database for PostgreSQL - Flexible Server에 데이터 저장
@@ -126,17 +134,11 @@ Azure App Service 기준으로 배포할 수 있도록 구성되어 있습니다
 
 ## 데모 흐름
 
-1. `mcp.json`에 `restaurant`, `instagram` 서버가 등록된 상태를 보여줍니다.
+1. `mcp.json`에 `restaurant`, `instagram`, `notion` 서버가 등록된 상태를 보여줍니다.
 2. 배포된 웹앱에서 리뷰를 직접 작성합니다.
 3. GitHub Copilot에게 레스토랑 방문자 이름과 평점을 물어봅니다.
-4. Smithery 같은 외부 서비스에서 Instagram MCP URL을 복사한 뒤, VS Code에서 `Cmd+Shift+P` > MCP 추가를 통해 `mcp.json`에 붙여 넣습니다.
+4. Smithery 같은 외부 서비스에서 Instagram, notion MCP URL을 복사한 뒤, VS Code에서 `Cmd+Shift+P` > MCP 추가를 통해 `mcp.json`에 붙여 넣습니다.
 5. Copilot이 등록된 도구를 읽고 답변하는 과정을 확인합니다.
-
-## 참고 자료
-
-- [Microsoft Learn 실습 원본: Python MCP 서버를 Azure App Service에 배포하기](https://learn.microsoft.com/azure/app-service/tutorial-ai-model-context-protocol-server-python?wt.mc_id=studentamb_482865)
-- [Notion 컨텐츠 설계도](https://www.notion.so/LIT-4-333ab05f4ff28097a42cddc1fd8413ad?source=copy_link)
-- [PPT 원본](https://docs.google.com/presentation/d/1hMlO15SjUK3c5397QtLXlnDeGIds2IJY/edit?usp=sharing&ouid=112468629457417043834&rtpof=true&sd=true)
 
 ## 도움말
 
