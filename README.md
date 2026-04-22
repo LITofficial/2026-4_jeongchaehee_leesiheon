@@ -43,9 +43,6 @@ This project has a [dev container configuration](.devcontainer/), which makes it
     # Install the app as an editable package
     python3 -m pip install -e src
 
-    # Run database migrations
-    python3 src/fastapi_app/seed_data.py
-
     # Start the development server
     python3 -m uvicorn fastapi_app:app --reload --port=8000
     ```

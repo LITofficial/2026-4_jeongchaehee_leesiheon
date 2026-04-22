@@ -12,7 +12,7 @@
             "args": [
                 "fastapi_app:app",
                 "--reload",
-                "--port=8888"
+                "--port=8000"
             ],
             "justMyCode": false
         }
