@@ -7,32 +7,15 @@
 - [컨텐츠 설계도](https://www.notion.so/LIT-4-333ab05f4ff28097a42cddc1fd8413ad?source=copy_link)
 - [PPT 원본](https://docs.google.com/presentation/d/1hMlO15SjUK3c5397QtLXlnDeGIds2IJY/edit?usp=sharing&ouid=112468629457417043834&rtpof=true&sd=true)
 
-## Azure App Service로 배포하는 FastAPI + PostgreSQL 레스토랑 리뷰 앱
 ---
-page_type: sample
-languages:
-- azdeveloper
-- python
-- bicep
-- html
-- css
-- scss
-products:
-- azure
-- azure-app-service
-- azure-postgresql
-- azure-virtual-network
-urlFragment: msdocs-fastapi-postgresql-sample-app
-name: Deploy FastAPI application with PostgreSQL on Azure App Service (Python)
-description: This project deploys a restaurant review web application using FastAPI with Python and Azure Database for PostgreSQL - Flexible Server. It's set up for easy deployment with the Azure Developer CLI.
----
-<!-- YAML front-matter schema: https://review.learn.microsoft.com/en-us/help/contribute/samples/process/onboarding?branch=main#supported-metadata-fields-for-readmemd -->
 
-이 저장소는 FastAPI와 PostgreSQL로 만든 레스토랑 리뷰 웹 애플리케이션입니다.
+## Azure App Service로 배포하는 FastAPI + PostgreSQL 레스토랑 리뷰 앱
+
+💡이 Repository 및 아래 내용는 FastAPI와 PostgreSQL로 만든 레스토랑 리뷰 웹 애플리케이션입니다.
 
 Azure App Service에 배포할 수 있도록 구성되어 있고, MCP(Model Context Protocol) 도구를 통해 GitHub Copilot Chat 같은 AI 클라이언트가 실제 앱 데이터를 읽고 답할 수 있습니다.
 
-## 이 Repository에서 할 수 있는 것
+## 해당 Repository에서 할 수 있는 것
 
 - 리뷰 작성과 조회가 가능한 레스토랑 웹앱 실행
 - Azure Database for PostgreSQL - Flexible Server에 데이터 저장
